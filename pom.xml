@@ -35,17 +35,23 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-		
-		
-	</dependencies>
 
-	<repositories>
-		<repository>
-			<id>oracle</id>
-			<name>ORACLE JDBC Repository</name>
-			<url>http://maven.jahia.org/maven2</url>
-		</repository>
-	</repositories>
+		<!-- common fileupload -->
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>1.2.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+
+
+	</dependencies>
 
 	<build>
 		<sourceDirectory>src</sourceDirectory>

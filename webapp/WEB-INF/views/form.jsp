@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>파일 업로드 예제</h1>
-<form method="post" action="upload" enctype="multipart/form-data">
+<form method="post" action="upload" enctype="multipart/form-data"> <!-- form에서 multipart로 설정하면 여러개 사용 가능 -->
 
 	<label>email:</label>
 	<input type="text" name="email" value="kickscar@gmail.com">

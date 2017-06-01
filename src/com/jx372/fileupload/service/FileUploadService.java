@@ -11,7 +11,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class FileUploadService {
 	//패스값 설정은 servlet에서 설정이 가능하다.
 	private static final String SAVE_PATH = "/uploads";
-	private static final String PREFIX_URL = "/upload-images/";
+	private static final String PREFIX_URL = "/upload/images/";
 	
 	
 	public String restore(MultipartFile multipartFile) {

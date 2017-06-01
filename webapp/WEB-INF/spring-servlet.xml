@@ -20,7 +20,7 @@
 	<!-- 이부분이 웹서버프로그램의 디렉토리에 포함되어 있지 않아도 저장된 파일의 경로로 찾아갈 수 있게 해주는
 	설정이다. -->
 	<!-- the mvc resources tag does the magic -->
-	<mvc:resources mapping="/upload-images/**" location="file:/uploads/" />
+	<mvc:resources mapping="/upload/images/**" location="file:/uploads/" />
 
 	<!--  뷰 리졸버 (bean 설정)-->
 	<bean id="viewResolver"
